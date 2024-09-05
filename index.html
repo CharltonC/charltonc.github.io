@@ -47,13 +47,13 @@
         <h3>Draft - React state management (library / 2024)</h3>      
         <p>Extremely simple and efficient OOP style state management for React</p>
         <ul>            
-          <li>event handler method names directly represents action, no need for ceremonial redux actions</li>                            
-          <li>update state (cloned) directly inside wrapped methods with optional stackable update via <code>this.reflect</code> (i.e. access method without state update)</li>          
-          <li>allows async for event handler for any api call</li>
-          <li>compare and skip state update if same</li>
-          <li>optional integration with 3rd-party or external modules initialization inside <code>constructor</code> without <code>useEffect</code></li>
-          <li>optionally exclude event handlers from being wrapped with state update</li>
-          <li>init once and use method directly in event, e.g. <code>onClick={onBtnClick}</code> instead of <code>onClick={() => onBtnClick() }</code></li>
+          <li>Event handler method names directly represents action, no need for ceremonial redux actions</li>                            
+          <li>Update state (cloned) directly inside wrapped methods with optional stackable update via <code>this.reflect</code> (i.e. access method without state update)</li>          
+          <li>Allow async for event handler for any api call</li>
+          <li>Compare and skip state update if same</li>
+          <li>Optional integration with 3rd-party or external modules initialization inside <code>constructor</code> without <code>useEffect</code></li>
+          <li>Optionally exclude event handlers from being wrapped with state update</li>
+          <li>Init once and use method directly in event, e.g. <code>onClick={onBtnClick}</code> instead of <code>onClick={() => onBtnClick() }</code></li>
           <li><a href="https://stackblitz.com/edit/react-ts-ymf8jf?file=app-state-handle.ts">Demo</a></li>      
         </ul>
       </article>   
